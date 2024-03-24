@@ -867,6 +867,7 @@ form {
 	.display-tc {
 		display: table-cell!important;
 		vertical-align: middle;
+		padding-top: 356px;
 		h1, h2 {
 			margin: 0;
 			padding: 0;
@@ -874,11 +875,12 @@ form {
 		}
 		h1 {
 			margin-bottom: 0px;
-			font-size: 100px;
-			line-height: 1.5;
+			font-size: 80px;
+			line-height: 1;
 			font-family: $font-secondary;
 			@media screen and (max-width: $screen-sm) {
 				font-size: 40px;
+				line-height: 1.5;
 			}
 			@media screen and (max-width: $screen-xs) {
 				font-size: 30px;
@@ -886,8 +888,12 @@ form {
 		}
 		h2 {
 			font-size: 30px;
-			line-height: 1.5;
+			line-height: 1;
 			margin-bottom: 30px;
+			@media screen and (max-width: $screen-sm) {
+				font-size: 20px;
+				line-height: 0.5;
+			}
 			@media screen and (max-width: $screen-xs) {
 				font-size: 16px;
 			}
