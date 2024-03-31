@@ -7,7 +7,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #F14E95 !default;
+$brand-primary: #a01212 !default;
 $brand-secondary: #118DF0 !default; 
 
 $brand-white: #fff;
@@ -1340,7 +1340,7 @@ form {
 			color: $brand-white;
 		}
 		p{
-			color: rgba($brand-white,.5);
+			color: rgba($brand-white,1);
 		}
 	}
 
